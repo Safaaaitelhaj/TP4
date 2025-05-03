@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Professionnel - Safa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200 text-gray-800 dark:bg-gray-900 dark:text-white transition duration-300">
+
+    <div class="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-xl rounded-xl mt-12 p-8">
+        <!-- Toggle Button -->
+        <div class="flex justify-end mb-4">
+            <a href="CC.html">
+                <button class="px-5 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition">
+                    Changer le mode
+                </button>
+            </a>
+        </div>
+
+        <!-- Header du Profil -->
+        <div class="flex items-center border-b pb-4 mb-6">
+            <img src="safa.jpeg" alt="Photo de Safa" class="w-32 h-32 rounded-full border-4 border-indigo-600 object-cover mr-6">
+            <div>
+                <h1 class="text-4xl font-semibold text-indigo-600 mb-1">Safa</h1>
+                <h3 class="text-lg font-medium text-gray-600 dark:text-gray-300 mb-2">Développeuse Web / Étudiante en Informatique</h3>
+                <p class="text-sm">Email : safaaitgst@gmail.com | Tél : +212 0629291688</p>
+            </div>
+        </div>
+
+        <!-- Section Profil -->
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-indigo-600 mb-3">Profil</h2>
+            <p class="text-lg">
+                Étudiante en 3ème année en Mathématiques et Informatique à la FPO d’Ouarzazate, je suis passionnée par la programmation, les bases de données et l’analyse de données. Je suis motivée, rigoureuse et toujours à la recherche de nouveaux défis pour améliorer mes compétences.
+            </p>
+        </section>
+
+        <!-- Section Compétences -->
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-indigo-600 mb-3">Compétences</h2>
+            <ul class="list-disc list-inside pl-5 space-y-2">
+                <li class="text-lg">HTML, CSS, JavaScript</li>
+                <li class="text-lg">PHP, MySQL, Laravel</li>
+                <li class="text-lg">Git & GitHub</li>
+                <li class="text-lg">Responsive Design</li>
+            </ul>
+        </section>
+
+        <!-- Section Formation -->
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-indigo-600 mb-3">Formation</h2>
+            <ul class="list-disc list-inside pl-5 space-y-2">
+                <li class="text-lg"><strong>Licence en Informatique</strong> – FPO Ouarzazate | 2022 - 2025</li>
+                <li class="text-lg">1ère année – Assistant Administratif, OFPPT Ouarzazate</li>
+            </ul>
+        </section>
+
+        <!-- Section Langues -->
+        <section>
+            <h2 class="text-2xl font-semibold text-indigo-600 mb-3">Langues</h2>
+            <ul class="list-disc list-inside pl-5 space-y-2">
+                <li class="text-lg">Français : Courant</li>
+                <li class="text-lg">Anglais : Intermédiaire</li>
+                <li class="text-lg">Arabe : Langue maternelle</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle('dark');
+        }
+    </script>
+
+</body>
+</html>
